@@ -1,2 +1,12 @@
+##### CLASE 1 Y 2 #####
+
 Creamos este archivo para poder hacer nuestro primer commit con 'git commit -m'.
 Lo primero que debemos hacer es ingresar a la carpeta de tecnicatura, luego ejecutamos 'git add' para pasar nuestros archivos nuevos o modificados del area de trabajo al area de preparacion. Si en algun momento deseamos borrar los archivos del area de preparacion ejecutamos 'git reset'. Luego de agregar los archivos si ejecutamos 'git status' veremos los archivos agregados al area de preparacion en verde, eso significa que nuestros archivos estan listos para comitear. Con 'git commit --m "mi primer commit de git"' realizamos nuestro commit con nuestro mensaje. Luego con 'git log' podemos ver todos los commits que hemos realizado.
+
+##### CLASE 3 #####
+
+Recordamos que git tiene tres estados el directorio de trabajo (working directory), area de preparacion (staging area) y el repositorio o directorio de git (repository). El directorio de trabajo es donde se trabaja normalmente y donde se producen las modificaciones, con 'git add' lo que estamos agregando son dichas modificaciones al area de preparacion y cuando realizamos un commit con 'git commit' estamos pasando las modificaciones de nuestra area de trabajo al repositorio del proyecto.
+// Podemos ejecutar 'git add' haciendo 'git add .' para agregar TODAS las modificaciones al area de preparacion o 'git add modificado.txt' para agregar unicamente un archivo
+
+-git checkout-
+'git checkout' es un comando que nos permite varias cosas
