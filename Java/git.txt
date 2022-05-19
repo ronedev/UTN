@@ -9,4 +9,7 @@ Recordamos que git tiene tres estados el directorio de trabajo (working director
 // Podemos ejecutar 'git add' haciendo 'git add .' para agregar TODAS las modificaciones al area de preparacion o 'git add modificado.txt' para agregar unicamente un archivo
 
 -git checkout-
-'git checkout' es un comando que nos permite varias cosas
+'git checkout' es un comando que nos permite varias cosas, con 'git checkout -f' se pueden eliminar TODAS las ultimas modificaciones realizadas en el directorio de trabajo y volver al ultimo commit que se registro en el repositorio. Tambien con 'git checkout ejemplo.txt', se hace lo mismo explicado anteriormente pero sobre este unico archivo especificado. Tambien 'git checkout' nos sirve para navegar por nuestras ramas y nuestros commits. Cuando ejecutamos 'git log', no solamente podemos ver los commits realizados, sino que tambien podemos ver su id, podemos traernos el id del commit al que querramos movernos y ejecutar 'git checkout idDelCommit' y nos moveremos al commit especificado. Igual con las ramas, si tenemos 2 una main y otra master por ejemplo, ejecutando 'git checkout master' nos moveriamos de main a master. 
+
+-git restore-
+'git restore' es un comando nuevo que llego para reemplazar la primer utilidad mencionada de git checkout. Ya que lo que hace 'git restore' es restaurar el archivo al ultimo commit realizado. Con 'git restore .' restauramos todo el area de trabajo al ultimo commit, con 'git restore ejemplo.txt' restauramos ese unico archivo especificado al ultimo commit. Y en caso de que ya hayamos agregado ejemplo.txt al area de preparacion con 'git restore --staged ejemplo.txt' lo regresamos nuevamente al directorio de trabajo.
