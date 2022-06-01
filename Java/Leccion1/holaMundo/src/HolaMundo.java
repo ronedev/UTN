@@ -24,5 +24,6 @@ public class HolaMundo {
         
         resultado = num1 * num2;
         System.out.println("El resultado de la multiplicación es: " + resultado);
+        
     }
 }
