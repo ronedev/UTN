@@ -1,0 +1,47 @@
+##### CLASE 1 Y 2 #####
+
+Creamos este archivo para poder hacer nuestro primer commit con 'git commit -m'.
+Lo primero que debemos hacer es ingresar a la carpeta de tecnicatura, luego ejecutamos 'git add' para pasar nuestros archivos nuevos o modificados del area de trabajo al area de preparacion. Si en algun momento deseamos borrar los archivos del area de preparacion ejecutamos 'git reset'. Luego de agregar los archivos si ejecutamos 'git status' veremos los archivos agregados al area de preparacion en verde, eso significa que nuestros archivos estan listos para comitear. Con 'git commit --m "mi primer commit de git"' realizamos nuestro commit con nuestro mensaje. Luego con 'git log' podemos ver todos los commits que hemos realizado.
+
+##### CLASE 3 #####
+
+Recordamos que git tiene tres estados el directorio de trabajo (working directory), area de preparacion (staging area) y el repositorio o directorio de git (repository). El directorio de trabajo es donde se trabaja normalmente y donde se producen las modificaciones, con 'git add' lo que estamos agregando son dichas modificaciones al area de preparacion y cuando realizamos un commit con 'git commit' estamos pasando las modificaciones de nuestra area de trabajo al repositorio del proyecto.
+// Podemos ejecutar 'git add' haciendo 'git add .' para agregar TODAS las modificaciones al area de preparacion o 'git add modificado.txt' para agregar unicamente un archivo
+
+-git checkout-
+'git checkout' es un comando que nos permite varias cosas, con 'git checkout -f' se pueden eliminar TODAS las ultimas modificaciones realizadas en el directorio de trabajo y volver al ultimo commit que se registro en el repositorio. Tambien con 'git checkout ejemplo.txt', se hace lo mismo explicado anteriormente pero sobre este unico archivo especificado. Tambien 'git checkout' nos sirve para navegar por nuestras ramas y nuestros commits. Cuando ejecutamos 'git log', no solamente podemos ver los commits realizados, sino que tambien podemos ver su id, podemos traernos el id del commit al que querramos movernos y ejecutar 'git checkout idDelCommit' y nos moveremos al commit especificado. Igual con las ramas, si tenemos 2 una main y otra master por ejemplo, ejecutando 'git checkout master' nos moveriamos de main a master. 
+
+-git restore-
+'git restore' es un comando nuevo que llego para reemplazar la primer utilidad mencionada de git checkout. Ya que lo que hace 'git restore' es restaurar el archivo al ultimo commit realizado. Con 'git restore .' restauramos todo el area de trabajo al ultimo commit, con 'git restore ejemplo.txt' restauramos ese unico archivo especificado al ultimo commit. Y en caso de que ya hayamos agregado ejemplo.txt al area de preparacion con 'git restore --staged ejemplo.txt' lo regresamos nuevamente al directorio de trabajo. 
+
+//TANTO git checkout como git restore eliminan los archivos modificados que ya existian en el ultimo commit realizado, pero no los que se han agregado en este directorio de trabajo
+
+-git diff- 
+'git diff' nos permite visualizar los cambios realizados recientemente, marcandonos con rojo lo que ya esta commiteado y con verde las modificaciones en el working directory, ademas con 'git diff --stat' nos da de forma resumida, en donde se producieron los cambios, si se producieron cambios y cuantos cambios se producieron. Tambien con 'git diff --numstat' podemos ver cuantas lineas de codigo se modificaron.
+
+##### CLASE 4 #####
+
+-git checkout-
+Otra de las utilidades de este comando es la de crear una nueva rama en nuestro repositorio. Con 'git checkout -b nombreDeLaRama' se nos crearia una nueva rama auxiliar a la main.
+
+-git branch-
+Con 'git branch' veremos las ramas que tiene nuestro repositorio.
+
+##### CLASE 5 #####
+
+-Sobre los guiones en nuestro comandos-
+
+Cuando se trate de un solo guion éste estará acompañado de una o dos letras, por ejemplo 'git checkout -b'. Y cuando se trate de dos guiones generalmente vendrá acompañado de una palabra, por ejemplo 'git log --'
+
+-git reset-
+
+Este comando, entre otras cosas, nos sirve para eliminar commits especificos que le indiquemos. 'git reset hashDelCommit' eliminaria el commit con ese hash especificado.
+
+-git merge- 
+
+Este comando nos permite fusionar las ramas de nuestro repositorio. Generalmente en la rama principal (master o main) va el "codigo definitivo" el que va luego a produccion y las ramas auxiliares se crean con la finalidad de realizar modificaciones a nuestro codigo sin accidentalmente dañar nuestro codigo definitivo. Cuando el objetivo con el que creamos la rama auxiliar se cumpla y funcione correctamente necesitaremos unir esta rama auxiliar a la principal, y esto es lo que hace 'git merge nombreDeLaRamaAFusionarConLaPrincipal'
+En caso de que se genere un conflicto con 'git merge --abort' cada rama volvera a su posicion original.
+
+-git branch-
+
+Con git branch tambien podremos eliminar ramas que ya no utilicemos. Posicionandonos en la principal y ejecutando 'git branch' podremos ver todas las ramas que actualmente tiene nuestro repositorio y con 'git branch -D nombreDeLaRamaAEliminar' eliminariamos la rama especificada.
