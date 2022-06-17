@@ -44,6 +44,73 @@
 
 # print(resultado)
 
+# operandoA = 8
+# operandoB = 5
+# suma = operandoA + operandoB
+# # print("El resultado de la suma es: ",suma)
+# print(f"El resultado de la suma es: {suma}")
+
+# resta = operandoA - operandoB
+# print(f"El resultado de la resta es: {resta}")
+
+# multiplicacion = operandoA * operandoB
+# print(f"El resultado de la multiplicacion es: {multiplicacion}")
+
+# division = operandoA / operandoB
+# print(f"El resultado de la division es: {division}")
+
+# divisionNumeroEntero = operandoA // operandoB
+# print(f"El resultado de la division con solo el lado entero es: {divisionNumeroEntero}")
+
+# modulo = operandoA % operandoB
+# print(f"El resultado del modulo es: {modulo}")
+
+# exponente = operandoA ** operandoB
+# print(f"El resultado del exponente es: {exponente}")
+
+# miVariable = 10
+# print(miVariable)
+
+# #Operadores de reasignacion
+# miVariable = miVariable + 1
+# print(miVariable)
+
+# miVariable += 1
+# print(miVariable)
+
+# #miVariable = miVariable -2
+# miVariable -= 2
+# print(miVariable)
+
+# #miVariable = miVariable * 3
+# miVariable *= 3
+# print(miVariable)
+
+# #miVariable = miVariable / 2
+# miVariable /= 2
+# print(miVariable)
+
+#Operadores de comparacion
+d = 4
+b = 2
+resultado = d == b #Comprobamos si son iguales
+print(resultado)
+
+resultado = d != b #Comprobamos si diferentes
+print(resultado)
+
+resultado = d > b #Comprobamos si d es mayor que b
+print(resultado)
+
+resultado = d < b #Comprobamos si d es menor que b
+print(resultado)
+
+resultado = d <= b #Comprobamos si d es menor o igual que b
+print(resultado)
+
+resultado = d >= b #Comprobamos si d es mayor o igual que b
+print(resultado)
+
 # miVariable = int(input('Ingrese un numero'))
 
 # print("Su numero multiplicado por 5 es: ", miVariable * 5)
