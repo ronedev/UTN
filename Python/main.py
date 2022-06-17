@@ -91,25 +91,93 @@
 # print(miVariable)
 
 #Operadores de comparacion
-d = 4
-b = 2
-resultado = d == b #Comprobamos si son iguales
-print(resultado)
+# d = 4
+# b = 2
+# resultado = d == b #Comprobamos si son iguales
+# print(resultado)
 
-resultado = d != b #Comprobamos si diferentes
-print(resultado)
+# resultado = d != b #Comprobamos si diferentes
+# print(resultado)
 
-resultado = d > b #Comprobamos si d es mayor que b
-print(resultado)
+# resultado = d > b #Comprobamos si d es mayor que b
+# print(resultado)
 
-resultado = d < b #Comprobamos si d es menor que b
-print(resultado)
+# resultado = d < b #Comprobamos si d es menor que b
+# print(resultado)
 
-resultado = d <= b #Comprobamos si d es menor o igual que b
-print(resultado)
+# resultado = d <= b #Comprobamos si d es menor o igual que b
+# print(resultado)
 
-resultado = d >= b #Comprobamos si d es mayor o igual que b
-print(resultado)
+# resultado = d >= b #Comprobamos si d es mayor o igual que b
+# print(resultado)
+
+#Ejercico valor dentro de un rango
+
+# valor = int(input('Ingrese un numero: '))
+# valorMinimo = 0
+# valorMaximos = 5
+# dentroRango = (valor >= valorMinimo and valor <= valorMaximos)
+
+# if dentroRango:
+#     print(f'El numero {valor} esta dentro del rango')
+# else:
+#     print(f'El numero {valor} esta fuera del rango')
+
+#Operador or y operador not
+# vacaciones = True
+# diaDescanso = False
+# if not(vacaciones or diaDescanso):
+#     print('Tiene trabajo que hacer')
+# else:
+#     print('Puede asistir al juego')
+
+#Rango entre las edades 20 y 30 años
+
+# edad = int(input('Ingrese la edad: '))
+
+# veinte = edad >= 20 and edad < 30
+# print(veinte)
+
+# treinta = edad >= 30 and edad < 40
+# print(treinta)
+
+# if veinte:
+#     print('Entre 20 y 30 años')
+# elif treinta:
+#     print('Entre 30 y 40 años')
+# else:
+#     print('Fuera de rango')
+
+#El mayor de dos numeros
+
+# num1 = int(input('Digite el numero uno: '))
+# num2 = int(input('Digite el numero dos: '))
+
+# if num1 > num2:
+#     print('El numero 1 es mayor')
+# else:
+#     print('El numero 2 es mayor')
+
+#Tienda de libros
+
+book_name = input('Ingrese el nombre del libro: ')
+book_id = int(input('Ingrese el id del libro: '))
+book_price = int(input('Ingrese el precio del libro: '))
+book_sending = input('Envio gratis(True/False): ')
+
+if book_sending == 'True':
+    book_sending = True
+elif book_sending == 'False':
+    book_sending = False
+else:
+    book_sending = "El valor es incorrecto, debe ingresar True o False"
+
+print(f'''
+        Nombre: {book_name}
+        ID: {book_id}
+        Precio: {book_price}
+        Envio gratuito: {book_sending}
+''')
 
 # miVariable = int(input('Ingrese un numero'))
 
