@@ -160,24 +160,54 @@
 
 #Tienda de libros
 
-book_name = input('Ingrese el nombre del libro: ')
-book_id = int(input('Ingrese el id del libro: '))
-book_price = int(input('Ingrese el precio del libro: '))
-book_sending = input('Envio gratis(True/False): ')
+# book_name = input('Ingrese el nombre del libro: ')
+# book_id = int(input('Ingrese el id del libro: '))
+# book_price = int(input('Ingrese el precio del libro: '))
+# book_sending = input('Envio gratis(True/False): ')
 
-if book_sending == 'True':
-    book_sending = True
-elif book_sending == 'False':
-    book_sending = False
-else:
-    book_sending = "El valor es incorrecto, debe ingresar True o False"
+# if book_sending == 'True':
+#     book_sending = True
+# elif book_sending == 'False':
+#     book_sending = False
+# else:
+#     book_sending = "El valor es incorrecto, debe ingresar True o False"
 
-print(f'''
-        Nombre: {book_name}
-        ID: {book_id}
-        Precio: {book_price}
-        Envio gratuito: {book_sending}
-''')
+# print(f'''
+#         Nombre: {book_name}
+#         ID: {book_id}
+#         Precio: {book_price}
+#         Envio gratuito: {book_sending}
+# ''')
+
+#sentencia if else
+# condicion = False
+# if condicion == True:
+#     print('Verdadero')
+# elif condicion == False:
+#     print('Falso')
+# else:
+#     print('Condicion sin especificar')
+
+#Operador ternario
+condicion = False
+print('Condicion verdader') if condicion else print('Condicion falsa')
+
+    
+#Conversion de numero a texto
+
+# num = int(input('Digite un numero entre el 1 y el 3: '))
+# numTexto = ''
+
+# if num == 1:
+#     numTexto = 'Número uno'
+# elif num == 2:
+#     numTexto = 'Número dos'
+# elif num == 3:
+#     numTexto = 'Número tres'
+# else:
+#     numTexto = 'Has ingresado un número fuera del rango'
+
+# print(f'El numero ingresado es el: {numTexto}')
 
 # miVariable = int(input('Ingrese un numero'))
 
