@@ -1,13 +1,6 @@
 #Programa que reciba la edad del usuario e imprima la etapa de su vida en la que se encuentra
 
-edad = 0
-
-while True:
-    edad = int(input('Ingrese su edad: '))
-    if(edad > 0 and edad < 100):
-        break
-    else:
-        print('**Ingrese una edad válida**')
+edad = int(input('Digite su edad: '))
 
 if(edad >= 0 and edad <= 9):
     print('La infancia es increible y bella')
