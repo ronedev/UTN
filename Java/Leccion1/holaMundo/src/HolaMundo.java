@@ -166,7 +166,7 @@ public class HolaMundo {
         System.out.println("edad = " + edad);*/
         
         //conversion de tipos primitivos en Java parte 2
-        var entrada = new Scanner(System.in);
+        /*var entrada = new Scanner(System.in);
         var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + (edadTexto+1));
         
@@ -175,7 +175,52 @@ public class HolaMundo {
         
         System.out.println("Digite un caracter: ");
         fraseChar = entrada.nextLine().charAt(0);
-        System.out.println("fraseChar = " + fraseChar);
+        System.out.println("fraseChar = " + fraseChar);*/
+        
+        /*
+        int num1 = 5, num2 = 4;
+        var solucion = num1 +num2;
+        System.out.println("solucion de la suma = " + solucion);
+        
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta = " + solucion);
+        
+        solucion = num1 * num2;
+        System.out.println("solucion de la multiplicacion = " + solucion);
+        
+        solucion = num1 / num2;
+        System.out.println("solucion de la division = " + solucion );
+        
+        var solucion2 = 3.14 / num2;
+        System.out.println("solucion de la division = " + solucion2);
+        
+        solucion = num1 % num2;
+        System.out.println("solucion del modulo = " + solucion);
+        
+        if(num1 % 2 == 0){
+            System.out.println("Numero par");
+        }else{
+            System.out.println("Numero impar");
+        }*/
+        
+        int varNum1 = 1, varNum2 = 4;
+        int varNum3 = varNum1 + 6 - varNum2; //Operacion
+        System.out.println("varNum3 = " + varNum3);
+        
+        varNum1 += 1; //varNum1 = varNum1 + 1
+        System.out.println("suma = " + varNum1);
+        
+        varNum1 -= 3; //varNum1 = varNum1 - 3
+        System.out.println("resta= " + varNum1);
+        
+        varNum1 *= 2; //varNum1 = varNum1 * 2
+        System.out.println("multiplicacion = " + varNum1);
+        
+        varNum1 /= 4; //varNum1 = varNum1 / 4
+        System.out.println("division= " + varNum1);
+        
+        varNum1 %= 2; //varNum1 = varNum1 % 2
+        System.out.println("modulo = " + varNum1);
         
         /*
         System.out.println(saludo.equals(saludo2));//retorna false
