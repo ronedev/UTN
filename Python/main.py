@@ -189,8 +189,8 @@
 #     print('Condicion sin especificar')
 
 #Operador ternario
-condicion = False
-print('Condicion verdader') if condicion else print('Condicion falsa')
+# condicion = False
+# print('Condicion verdader') if condicion else print('Condicion falsa')
 
     
 #Conversion de numero a texto
@@ -240,3 +240,46 @@ Linea
 # else:
 #     print(f'El numero {num} es impar.')
 
+#Ciclo while (mientras o durante)
+# contador = 0
+# while contador < 10:
+#     print(contador)
+#     contador += 1
+# else:
+#     print('Fin del ciclo while')
+
+#Imprimir numeros del 0 al 5 con el ciclo while
+# num = 0
+# max = 5
+# while num <= 5:
+#     print(num)
+#     num += 1
+
+# min = 1
+# contador = 5
+
+# while contador >= min:
+#     print(contador)
+#     contador -= 1
+
+#Ciclo for
+# cadena = 'Hello'
+# for letra in cadena:
+#     print(letra)
+# else:
+#     print('Fin del ciclo for')
+# for letra in 'Alemania':
+#     if letra == 'a':
+#         print(f'Letra a encontrada: {letra}')
+#         break
+# else:
+#     print('Fin del ciclo for')
+
+#Palabra reservada continue
+# for i in range(6):
+#     if i % 2 == 0:
+#         print(f'El numero {i} es par')
+for i in range(6):
+    if i % 2 != 0:
+        continue
+    print(f'El numero {i} es par')
