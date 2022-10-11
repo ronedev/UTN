@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Persona
+--
+-name: str
+-surname: str
+-age: int
+--
+/mostrar_detalle()/</help_text><element><id>UMLClass</id><coordinates><x>210</x><y>50</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-name: str
+-surname: str
+-age: int
+--
+mostrar_detalle()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>230</y><w>210</w><h>70</h></coordinates><panel_attributes>_persona1: Persona_
+--
+name: str = Reinaldo
+surname: str = Gomez
+age: int = 45</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>230</y><w>210</w><h>70</h></coordinates><panel_attributes>_persona2: Persona_
+--
+name: str = Ariel
+surname: str = Bentancud
+age: int = 40</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>180</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>180</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>170</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>170</y><w>250</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;230;20</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>140</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element></diagram>
