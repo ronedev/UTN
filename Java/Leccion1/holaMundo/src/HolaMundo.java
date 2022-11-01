@@ -4,13 +4,18 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         /*int num1;
+=======
+        int num1;
+>>>>>>> 016cb2a8486c3240ea97f54eeb9f59591449805b
         int num2;
         int resultado;
         String saludo = "Hola mundo desde java";
         String saludo2 = "Hola manola";
         //Para comparar string se utiliza equals, no ===
         
+<<<<<<< HEAD
         int miVariableReutilizable = 10;
         System.out.println(miVariableReutilizable);
         miVariableReutilizable = 5;
@@ -344,6 +349,8 @@ public class HolaMundo {
         
         
         /*
+=======
+>>>>>>> 016cb2a8486c3240ea97f54eeb9f59591449805b
         System.out.println(saludo.equals(saludo2));//retorna false
         
         System.out.println(saludo + saludo2); //Cuando se suman string se concatena
@@ -357,6 +364,10 @@ public class HolaMundo {
         
         resultado = num1 * num2;
         System.out.println("El resultado de la multiplicación es: " + resultado);
+<<<<<<< HEAD
         */
+=======
+        
+>>>>>>> 016cb2a8486c3240ea97f54eeb9f59591449805b
     }
 }
