@@ -1,5 +1,5 @@
 //Ejercicio para encontrar numeros pares
-let num = 5
+let num = 15
 
 if(num % 2 == 0){
     console.log('El numero es par')
@@ -13,4 +13,13 @@ if(edad >= 18){
     console.log('Es mayor de edad')
 }else{
     console.log('Es menor de edad')
+}
+
+//Ejercicio dentro de rango
+let valorMin = 0, valorMax = 10
+
+if(num >= valorMin && num <= valorMax){
+    console.log('Dentro de rango')
+}else{
+    console.log('Fuera de rango')
 }

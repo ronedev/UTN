@@ -25,3 +25,11 @@ let rompiendo = 'break' //no usar palabras reservadas como nombre de variable
 
 console.log(_1num)
 console.log(rompiendo)
+
+//Hoy en dia no se utiliza var, se usa let o const
+
+let nombre2 = "Pedro"
+console.log(nombre2)
+
+const apellido2 = "Perez"
+// apellido2 = "Rodriguez" Una constante no puede ser modificada
