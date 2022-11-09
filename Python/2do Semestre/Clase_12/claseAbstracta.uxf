@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>100</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;FiguraGeometrica&gt;&gt;
+--
+-alto
+-ancho
+--
++area()&lt;&lt;abstract&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>100</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Color&gt;&gt;
+--
++color
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>310</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Cuadrado&gt;&gt;
+--
++area()&lt;&lt;implementacion&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>310</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Rectangulo&gt;&gt;
+--
++area()&lt;&lt;implementacion&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>190</y><w>300</w><h>130</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;210;78;280;110</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>190</y><w>400</w><h>130</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;110;380;10</additional_attributes></element><element><id>Relation</id><coordinates><x>820</x><y>180</y><w>90</w><h>140</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;120;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>190</y><w>90</w><h>140</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;120;20;10</additional_attributes></element></diagram>
